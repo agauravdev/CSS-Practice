@@ -1,0 +1,14 @@
+.row {
+    display: grid;
+    background-color: lightyellow;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-column-gap: 2rem;
+}
+
+.box{
+    max-width: 500px;
+    min-width: 75px;
+    margin: 1rem;
+    background-color: lightblue;
+    border: 1px solid black;
+}

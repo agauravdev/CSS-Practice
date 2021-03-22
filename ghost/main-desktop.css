@@ -1,0 +1,23 @@
+/* ToDo change this media query to min-width 768 */
+
+@media only screen and (min-width: 560px) {
+  .social-nav {
+    display: unset;
+  }
+
+  header {
+    padding: 0.5rem;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  main {
+    display: flex;
+  }
+
+
+
+}

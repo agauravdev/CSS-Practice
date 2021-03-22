@@ -1,0 +1,116 @@
+:root{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  
+  --ghost-blue : #3eb0ef;
+  --dark-background: #1A1C20;
+  --light-grey: #e5eff5;
+  --mid-grey: #738a94;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background-color: var(--dark-background);
+  color: var(--light-grey)
+}
+
+/* header */
+
+header {
+  color: var(--light-grey);
+  background: radial-gradient(farthest-corner at 50% 25%, #1e2325, #0b0d0d);
+}
+
+nav ul {
+  color: var(--light-grey);
+  padding: 1rem;
+  margin: 0;
+  font-weight: 700;
+}
+
+.main-nav{
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0.5em;
+  font-size: 0.8em;
+}
+
+a:link,
+a:visited {
+  color: inherit;
+  text-decoration: none;
+}
+
+.social-nav {
+  display: none;
+}
+
+#subscribe {
+  border: 2px solid white;
+  border-radius: 0.7rem;
+  padding: 0.2rem 0.5rem;
+}
+
+.header-tagline {
+  color: darkgray;
+  font-size: large;
+}
+
+
+.header-main {
+  flex-direction: column;
+  min-height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* blogs */
+
+.blog {
+  margin: 1rem;
+  padding-bottom: 2rem;
+}
+
+.blog-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 0.25rem;
+  margin-bottom: 1rem;
+}
+
+.blog-name {
+  margin: 0.5rem 0;
+  color: white;
+}
+
+.blog-tag {
+  color : var(--ghost-blue);
+  text-transform: uppercase;
+}
+
+.blog-summary {
+  color: var(--mid-grey);
+}
+
+.blog-footer {
+  display: flex;
+}
+
+.blog-metadata {
+  display: flex;
+  flex-direction: column;
+  color: var(--light-grey);
+  font-weight: 500;
+}
+
+.date-and-time, .date-and-time time, .date-and-time span {
+  color: var(--mid-grey);
+  font-size: smaller;
+}
